@@ -10,20 +10,6 @@
       <!-- END OF ALTCRAFT PIXEL CODE !-->
 	  <script src="https://pxl.demo.altcraft.com/ak_container.js?id=MzN8Mg==" ></script>
 
-<button id="init_sub">Подписаться на уведомления</button> // Кнопка подписки
-
-<script>
-  $("#init_sub").click(function(){
-    try {
-     	var akPush = new AKPush();
-     	akPush.initSubscription() 
-        }
-	  catch (e) {
-      console.log(e);
- 			  }
-         						  });
-
-</script>
   </head>  
   <body>
 <script>
@@ -40,6 +26,20 @@
             firstScript.parentNode.insertBefore(script, firstScript);
         }
     }(window, document, 'acDataLayer', 'ATM-9nvVFwG73nutmCCtV'));
+</script>
+	  <button id="init_sub">Подписаться на уведомления</button> // Кнопка подписки
+
+<script>
+  $("#init_sub").click(function(){
+    try {
+     	var akPush = new AKPush();
+     	akPush.initSubscription() 
+        }
+	  catch (e) {
+      console.log(e);
+ 			  }
+         						  });
+
 </script>
     <table cellspacing="15">
         <tr>
