@@ -1,0 +1,5 @@
+{
+  "permissions": [ "activeTab" ],
+  "name": "https://demo.altcraft.com/resources/edit/new?next=%2Fresources&type=email",
+  "display": "standalone"
+}
